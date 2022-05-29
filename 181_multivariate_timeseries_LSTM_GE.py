@@ -134,3 +134,4 @@ original = original.loc[original['Date'] >= '2020-5-1']
 
 sns.lineplot(original['Date'], original['Open'])
 sns.lineplot(df_forecast['Date'], df_forecast['Open'])
+
